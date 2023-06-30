@@ -1,0 +1,489 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trirong', sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  /* Header Section */
+  .diagonal-box {
+    width: 100vw;
+    height: 120vh;
+    background-image: -webkit-linear-gradient(15deg, #bd0707 15%, #000000 15%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .social-container {
+    margin-bottom: 2rem;
+  }
+  
+  .social {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 0 0.5rem;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .webdev-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .photoflex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .photo img {
+    width: 200px;
+    border-radius: 50%;
+  }
+  
+  .webdev h1 {
+    font-family: 'Audiowide', cursive;
+    font-size: 3rem;
+    color: #fff;
+  }
+  
+  .webdev h2 {
+    font-size: 2.5rem;
+    color: #fff;
+  }
+  
+  .webdev p {
+    font-size: 1.25rem;
+    color: #fff;
+    margin-bottom: 1.5rem;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #bd0707;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-radius: 30px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .boxdetail {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  
+  .work,
+  .skill,
+  .project,
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .work ion-icon,
+  .skill ion-icon,
+  .project ion-icon,
+  .contact ion-icon {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* About Me Section */
+  .aboutme {
+    padding: 2rem;
+    background-color: #f7f7f7;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .story {
+    width: 100%;
+  }
+  
+  .story h3 {
+    font-size: 1.5rem;
+    color: #000;
+  }
+  
+  .story h2 {
+    font-size: 2.5rem;
+    color: #000;
+  }
+  
+  .story h4 {
+    font-size: 5rem;
+    color: #bd0707;
+    line-height: 0;
+    margin-top: -0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .story p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 1rem;
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .info img {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .info p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+  }
+  
+  .csv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #bd0707;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  .csv p {
+    color: white;
+    margin-left: 5px;
+  }
+  
+  /* Work Section */
+  .work-container {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+  }
+  
+  .workbox1 {
+    background-color: #f7f7f7;
+    padding: 2rem;
+  }
+  
+  .worktable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .worktable th {
+    font-weight: bold;
+    padding: 0.75rem;
+    border-bottom: 1px solid #000;
+    text-align: left;
+  }
+  
+  .worktable td {
+    padding: 0.75rem;
+    border-bottom: 1px solid #000;
+  }
+  
+  .tdyear {
+    font-weight: bold;
+    width: 200px;
+  }
+  
+  .tdanswer {
+    color: #666;
+  }
+  
+  .ptable {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .workbox2 {
+    background-color: #fff;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .skillsicons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    color: #666;
+    text-decoration: none;
+  }
+  
+  .skillsicons ion-icon {
+    font-size: 2rem;
+  }
+  
+  .skillsicons ion-icon[name="logo-html5"] {
+    color: #e34c26;
+  }
+  
+  .skillsicons ion-icon[name="logo-css3"] {
+    color: #1572b6;
+  }
+  
+  .skillsicons ion-icon[name="logo-javascript"] {
+    color: #f7df1e;
+  }
+  
+  .skillsicons ion-icon[name="logo-react"] {
+    color: #61dafb;
+  }
+  
+  .skillsicons ion-icon[name="logo-nodejs"] {
+    color: #68a063;
+  }
+  
+  .workbox2 h2 {
+    color: #000;
+    margin-bottom: 2rem;
+  }
+  
+  .skillsicons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    color: #666;
+    text-decoration: none;
+  }
+  
+  .skillsicons ion-icon {
+    font-size: 2rem;
+  }
+  
+  /* Contact Section */
+  .contact-container {
+    padding: 2rem;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .cbox {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+  }
+  
+  label p {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  input[type='text'],
+  textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 3px;
+    border: 1px solid #000;
+  }
+  
+  input[type='submit'] {
+    padding: 0.75rem 1.5rem;
+    background-color: #bd0707;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+
+  /* Mobile Styles */
+@media screen and (max-width: 600px) {
+    .diagonal-box {
+      display: block;
+      padding: 2rem;
+    }
+  
+    .social-container {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+  
+    .social {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+    }
+  
+    .webdev-container {
+      text-align: center;
+    }
+  
+    .photoflex {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .photo {
+      margin-bottom: 1rem;
+    }
+  
+    .webdev {
+      text-align: center;
+    }
+  
+    .webdev h1 {
+      font-size: 1.5rem;
+    }
+  
+    .webdev h2 {
+      font-size: 1.2rem;
+    }
+  
+    .webdev p {
+      font-size: 0.9rem;
+    }
+  
+    .button-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+      font-size: 10px;
+    }
+  
+    .boxdetail {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+    }
+  
+    .boxdetail a {
+      flex-basis: 50%;
+    }
+  
+    .aboutme {
+      padding: 2rem;
+    }
+  
+    .info {
+      margin-top: 2rem;
+      text-align: center;
+    }
+  
+    .info img {
+      width: 150px;
+    }
+  
+    .info p {
+      font-size: 0.8rem;
+    }
+  
+    .csv {
+      padding: 0.5rem 1rem;
+      font-size: 0.8rem;
+    }
+  
+    .work-container {
+      padding: 2rem;
+    }
+  
+    .workbox1,
+    .workbox2 {
+      padding: 1rem;
+    }
+  
+    .worktable {
+      font-size: 0.9rem;
+    }
+  
+    .workbox2 h2 {
+      font-size: 1.2rem;
+    }
+  
+    .skillsicons ion-icon {
+      font-size: 1.5rem;
+    }
+  
+    .contact-container {
+      padding: 2rem;
+    }
+  
+    .cbox {
+      max-width: 100%;
+    }
+  
+    input[type='submit'] {
+      font-size: 0.9rem;
+    }
+  
+    .footer {
+      font-size: 0.8rem;
+    }
+  }
